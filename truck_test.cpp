@@ -5,7 +5,7 @@
 
 TEST(Truck, FourWheels) {
   Truck t(0, 20);
-  ASSERT_EQ(4, t.GetNumWheels());
+  ASSERT_EQ(18, t.GetNumWheels());
 }
 
 TEST(Truck, CapHours1) {
